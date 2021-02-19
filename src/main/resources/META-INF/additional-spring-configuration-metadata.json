@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "spring.ldap.embedded.ssl.keystore",
+      "type": "java.lang.String",
+      "description": "SSL keystore."
+    },
+    {
+      "name": "spring.ldap.embedded.ssl.password",
+      "type": "java.lang.String",
+      "description": "Password for SSL keystore."
+    }
+  ]
+}

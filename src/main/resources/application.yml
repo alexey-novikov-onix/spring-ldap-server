@@ -1,0 +1,18 @@
+spring:
+  ldap:
+    embedded:
+      base-dn: dc=ldap,dc=com
+      credential:
+        username: uid=admin
+        password: admin
+      port: 12345
+      validation:
+        enabled: false
+      ssl:
+        keystore: classpath:ldaps.keystore
+        password: 123456
+
+logging:
+  level:
+    root:
+      DEBUG
