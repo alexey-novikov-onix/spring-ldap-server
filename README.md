@@ -1,2 +1,2 @@
 # LDAP server
-Simple LDAP Server based on Spring Boot
+Simple LDAP Server based on Spring Boot.
